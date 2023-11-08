@@ -1,0 +1,50 @@
+img{  
+  width: 8vw;
+  height: 15vh;
+  }
+
+body{
+background-image: url(src\images\Imagen fondo.jpg);
+}
+
+header{
+font-style: italic;
+}
+
+select{
+font-style: italic;
+}
+
+
+li{
+padding: 5px;
+ background:linear-gradient(
+    0deg,
+      rgba(212, 212, 24, 0.63) 0%,
+      rgba(162, 22, 27, 0.993)0%
+      
+);
+ border: 1px solid #07cace;
+ border-radius: 5px;
+ box-shadow: 0px 4px 4px rgba(51, 95, 88, 0.26);
+ width: 20vw;
+ height: 30vh;
+
+}
+
+
+.Info{
+font-style: italic;
+display: flex;
+justify-content: flex-end;
+}
+
+.Cards{
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+footer{
+font-style: italic;
+}
