@@ -4,7 +4,6 @@
 
 // Estas funciones son ejemplos, aquí puedes desarrollar tus propias funciones.
 
-
 //llamo la data para hacer filtrado
 /*export const mainField = (data) => {
   let camposEstudio = ["Matemáticas","Filosofía","Ciencia de la Computación","Composición Musical","Física","Actuación","Astronomía","Astrofísica","Química"]
@@ -13,7 +12,7 @@
 }; */
 
  export function filterData(data,camposEstudio,camposFiltrados) {
-  let tarjetasFiltradas = data.filter(tarjeta => tarjeta.facts[camposEstudio].includes(camposFiltrados));//Prehuntar gpt xqe los [] y ()
+  let tarjetasFiltradas = data.filter(tarjeta => tarjeta.facts[camposEstudio].includes(camposFiltrados));
   return tarjetasFiltradas;
 };
 //function sortData(data, sortBy, sortOrder)

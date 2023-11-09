@@ -27,8 +27,6 @@ ordenado.addEventListener("change",(event)=>{
  
 });
 
-const camposE = document.querySelector("select[data-testid='select-filter']");
-const Orden = document.querySelector("select[data-testid='select-sort']");
 const botonBorrar = document.querySelector("button[data-testid='button-clear']");
 botonBorrar.addEventListener ("click" , function () {
 cartas.innerHTML = renderItems(data);

@@ -4,9 +4,9 @@ background-size: 1920px 1280px;
 }
 
 img{  
-  width: 8vw;
-  height: 15vh;
-  }
+width: 8vw;
+height: 15vh;
+}
 
 header{
 font-style: italic;
@@ -50,27 +50,23 @@ border-radius: 5px;
 box-shadow: 0px 4px 4px rgba(51, 95, 88, 0.26);
 width: 20vw;
 height: 30vh;
-
 }
 
 #root{
 display: flex;
 flex-direction: column;
-
 }
 
 
 .Cards{
 display: inline-flex;
 flex-direction: row;
-
-
 }
 
 .Info{
-  font-style: italic;
-  text-align:left;
-  }
+font-style: italic;
+text-align:left;
+}
 
 footer{
 font-style: italic;
