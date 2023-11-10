@@ -33,3 +33,5 @@ cartas.innerHTML = renderItems(data);
 //cartas.innerHTML = cartas.innerHTML.replace(renderItems(data));
 
 });
+
+

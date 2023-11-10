@@ -35,3 +35,8 @@ export function sortData(data, alfabetico, abecedario) {
 export const anotherExample = () => {
   return [];
 };
+
+
+function tenRun(nums) {
+
+}
