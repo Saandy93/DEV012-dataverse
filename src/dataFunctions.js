@@ -11,32 +11,25 @@
   return camposFiltrados;
 }; */
 
- export function filterData(data,camposEstudio,camposFiltrados) {
-  let tarjetasFiltradas = data.filter(tarjeta => tarjeta.facts[camposEstudio].includes(camposFiltrados));
+export function filterData(data, camposEstudio, camposFiltrados) {
+  const tarjetasFiltradas = data.filter((tarjeta) =>
+    tarjeta.facts[camposEstudio].includes(camposFiltrados)
+  );
   return tarjetasFiltradas;
-};
+}
 //function sortData(data, sortBy, sortOrder)
 export function sortData(data, alfabetico, abecedario) {
-   if (abecedario === "Asc") {
+  if (abecedario === "Asc") {
     return data.sort((a, b) => a[alfabetico].localeCompare(b[alfabetico]));
   } else if (abecedario === "Desc") {
     return data.sort((a, b) => b[alfabetico].localeCompare(a[alfabetico]));
   } else {
     return data; // Orden
   }
-};
+}
 
 //function sortData(data, sortBy,sortOrder) {}
 
 //function filterData(data, filterBy, value) {
 //return data.filter(item => item[filterBy] === value);
 //}
-
-export const anotherExample = () => {
-  return [];
-};
-
-
-function tenRun(nums) {
-
-}
