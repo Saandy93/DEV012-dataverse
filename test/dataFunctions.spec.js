@@ -1,4 +1,5 @@
 import { filterData } from "../src/dataFunctions.js";
+import { sortData } from "../src/dataFunctions.js";
 import { data as fakeData } from "./data.js";
 
 describe("filterData", () => {
@@ -11,3 +12,4 @@ describe("filterData", () => {
     expect(filtradoMatematicas.length).toBe(2);
   });
 });
+
