@@ -62,3 +62,103 @@ export const data = [
     },
   },
 ];
+
+export const dataSort = [
+  {
+    id: "marjorie-lee-browne",
+    name: "Marjorie Lee Browne",
+    shortDescription: "Matemática, contribuyó a la teoría de números.",
+    description:
+      "Matemática estadounidense, destacó en una época en la que las mujeres afroamericanas enfrentaban múltiples barreras en la educación superior. No solo obtuvo su doctorado en matemáticas, sino que también se convirtió en una destacada educadora, promoviendo la diversidad en las ciencias matemáticas y desafiando la discriminación racial y de género. Su compromiso con la educación y su capacidad para inspirar a futuras generaciones la convierten en un modelo a seguir para las mujeres en la ciencia, dejando una huella perdurable en la historia académica.",
+    imageUrl:
+      "https://laboratoria-dataverse-talks.netlify.app/public/marjorie-lee-browne.jpg",
+    facts: {
+      yearOfBirth: "1914",
+      yearOfDeath: "1979",
+      birthPlace: "Memphis, Estados Unidos",
+      mainField: "Matemáticas",
+    },
+    extraInfo: {
+      imageSource:
+        "https://www.bing.com/images/create/design-an-inspiring-and-historically-accurate-imag/6510df7e7bb745f69d67f695441607a8",
+    },
+  },
+  {
+    id: "shakuntala-devi",
+    name: "Shakuntala Devi",
+    shortDescription:
+      "Matemática prodigio, conocida como la 'Calculadora Humana'.",
+    description:
+      'Conocida como "la bruja de las matemáticas" de la India, dejó una marca indeleble en el mundo de los números. Su capacidad mental asombrosa la llevó a resolver complejos cálculos matemáticos mentalmente en cuestión de segundos, estableciendo récords mundiales. Además de su talento innato, Devi promovió activamente la educación matemática y luchó por la igualdad de género en un país donde las mujeres enfrentaban desafíos en la ciencia y la educación. Su legado destaca el poder de la mente humana y la importancia de la igualdad de oportunidades en la ciencia.',
+    imageUrl:
+      "https://laboratoria-dataverse-talks.netlify.app/public/shakuntala-devi.jpg",
+    facts: {
+      yearOfBirth: "1929",
+      yearOfDeath: "2013",
+      birthPlace: "Bangalore, India",
+      mainField: "Matemáticas",
+    },
+    extraInfo: {
+      imageSource:
+        "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6",
+    },
+  },
+  {
+    id: "sofia-kovalevskaya",
+    name: "Sofia Kovalevskaya",
+    shortDescription:
+      "Matemática y escritora, contribuyó a la teoría de funciones.",
+    description:
+      "Matemática rusa del siglo XIX, dejó una marca indeleble en la ciencia del siglo XIX al desafiar las barreras de género. Como matemática rusa, superó las restricciones sociales de su época para convertirse en la primera mujer en obtener un doctorado en matemáticas en Europa. Sus contribuciones a la teoría de las ecuaciones diferenciales y la mecánica revolucionaron la disciplina, abriendo nuevas perspectivas en el análisis matemático. Su destacada membresía en la Academia de Ciencias de Suecia marcó un hito en la historia de las mujeres en la ciencia.",
+    imageUrl:
+      "https://laboratoria-dataverse-talks.netlify.app/public/sofia-kovalevskaya.jpg",
+    facts: {
+      yearOfBirth: "1850",
+      yearOfDeath: "1891",
+      birthPlace: "Moscú, Rusia",
+      mainField: "Matemáticas",
+    },
+    extraInfo: {
+      imageSource:
+        "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6",
+    },
+  },
+  {
+    id: "yoko-shimomura",
+    name: "Yoko Shimomura",
+    shortDescription:
+      "Compositora de música, destacada en la industria de los videojuegos.",
+    description:
+      "Compositora japonesa, es una figura destacada en la ciencia de la música y el arte sonoro. Aunque no se dedica a la ciencia en el sentido tradicional, su trabajo en la composición musical ha requerido un profundo entendimiento de la teoría musical y la tecnología de audio. Ha contribuido de manera significativa a la industria de los videojuegos, componiendo icónicas bandas sonoras que han enriquecido la experiencia de juego. Su éxito en un campo donde las mujeres estaban subrepresentadas la convierte en un modelo a seguir, incluso en campos no convencionales como la composición musical.",
+    imageUrl:
+      "https://laboratoria-dataverse-talks.netlify.app/public/yoko-shimomura.jpg",
+    facts: {
+      yearOfBirth: "1967",
+      birthPlace: "Hyogo, Japón",
+      mainField: "Composición Musical, Video Juegos",
+    },
+    extraInfo: {
+      imageSource:
+        "https://www.bing.com/images/create/yoko-shimomura-making-music-for-a-video-game-in-19/6510e40dd1eb45d0906e8c1f4bb601d3",
+    },
+  },
+  {
+    id: "maryam-mirzakhani",
+    name: "Maryam Mirzakhani",
+    shortDescription: "Matemática, ganadora del Premio Fields.",
+    description:
+      "Matemática iraní, hizo historia al convertirse en la primera mujer en ganar la Medalla Fields, el premio más prestigioso en matemáticas. Sus investigaciones en la geometría de superficies y la teoría de las superficies de Riemann han tenido un impacto duradero en la matemática pura. A lo largo de su carrera, Mirzakhani inspiró a muchas mujeres a perseguir carreras en ciencia y matemáticas, derribando las barreras de género. Su enfoque innovador y su capacidad para resolver problemas complejos la convierten en un modelo a seguir para la comunidad científica y en un símbolo de la excelencia matemática.",
+    imageUrl:
+      "https://laboratoria-dataverse-talks.netlify.app/public/maryam-mirzakhani.jpg",
+    facts: {
+      yearOfBirth: "1977",
+      yearOfDeath: "2017",
+      birthPlace: "Teherán, Irán",
+      mainField: "Matemáticas",
+    },
+    extraInfo: {
+      imageSource:
+        "https://chalkdustmagazine.com/features/mathematics-maryam-mirzakhani/",
+    },
+  },
+];
