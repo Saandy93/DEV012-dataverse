@@ -1,7 +1,7 @@
 export const renderItems = (data) => {
   let tarjetas = "";
   data.forEach((element) => {
-    tarjetas += `<li class="Info">
+    tarjetas += `<li class="Info"
   <dl itemscope itemtype="WomenInTech">
   <img src="${element.imageUrl}" alt=${element.name} /> 
   <dt>Nombre:</dt><dd itemprop="name">${element.name}</dd>

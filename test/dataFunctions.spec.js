@@ -28,8 +28,7 @@ describe("sortData", () => {
 
 //const arrayOriginal = [...ordenAsc];
 //const arrayOrdenado = arrayOriginal.sort();
-
 //expect(arrayOrdenado).toEqual(arrayOriginal);
-//function sortData(data, sortBy,sortOrder) {}
 
+//function sortData(data, sortBy,sortOrder) 
 //function filterData(data, filterBy, value)

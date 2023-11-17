@@ -12,20 +12,24 @@ img {
 }
 
 h1 {
+  font-size:xx-large;
   background-color: #ebbba7;
-  opacity: 0.8;
+  padding: 4vh;
+  border-radius: 10vh;
+  opacity: 0.9;
 }
 
 header {
+  background-image: url(images/FondoMujeres.jpeg);
+ background-size: contain;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-style: italic;
   text-align: center;
   text-decoration: underline;
   text-shadow: 5px 3px 5px rgb(8, 8, 8);
   color: rgb(17, 18, 18);
-  padding-bottom: 3vh;
-  padding-top: 12vh;
+  padding-bottom: 8vh;
+  padding-top: 8vh;
 }
 
 nav {
@@ -93,7 +97,7 @@ button {
   border-radius: 8px;
   background: linear-gradient(
     0deg,
-    rgb(173, 239, 218) 0%,
+    rgb(186, 149, 204)0%,
     rgba(255, 230, 177, 0.488) 100%
   );
   border: 2px solid white;
@@ -108,14 +112,6 @@ footer {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   opacity: 0.8;
-}
-
-.fondo {
-  background-image: url(images/FondoMujeres.jpeg);
-  background-position: center;
-  background-size: cover;
-  width: 230vh;
-  height: 20vh;
 }
 
 .Cards {
@@ -135,3 +131,4 @@ footer {
 footer {
   font-style: italic;
 }
+
